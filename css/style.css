@@ -171,7 +171,6 @@ figcaption h4 {
 .gallery-icecream img {
 	display: block;
 	width: 100%;
-	filter: blur(1px);
 	opacity: 0.5;
 	height: auto;
 	transform: scale(1.3);
@@ -184,7 +183,6 @@ figcaption h4 {
 .gallery-icecream img:hover {
 	transform: scale(1.1);
 	opacity: 1;
-	filter: blur(0);
 }
 
 .gallery-icecream a {
