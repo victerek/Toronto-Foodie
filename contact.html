@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Donuts</title>
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="main-header">
+		<a href="index.html"><img src="img/doughnut.svg" alt=""></a>
+		<ul class="main-nav">
+			<li><a href="index.html">home</a></li>
+			<li><a href="icecream.html">ice cream</a></li>
+			<li><a href="donuts.html">donuts</a></li>
+			<li><a href="#">tea</a></li>
+			<li><a href="#">coffee</a></li>
+			<li><a href="#">contact</a></li>
+		</ul>
+	</header><!--/.main-header-->
+
+	<div class="banner banner-donuts">
+		<img class="logo" src="img/package.svg" alt="City">
+		<h1 class="headline">See our collection of icecreams</h1>
+		<span class="tagline">*Pssst! You will absolutely love it!</span>
+	</div><!--/.banner-->
+
+  <section>
+    <form action="index.html" method="post">
+
+  		<h1>Make an order</h1>
+
+  		<fieldset>
+				<legend><span class="number">1</span> Your basic info</legend>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="user_name" value="">
+				<label for="email">Email:</label>
+				<input type="email" id="mail" name="user_email" value="">
+  		</fieldset>
+
+  		<fieldset>
+
+  				<legend><span class="number">2</span>Your sweet preferences</legend>
+
+  				<label for="bio">Tell us what do you like most about sweets</label>
+  				<textarea id="bio" name="user_bio"></textarea>
+
+          <label>*Let me choose already!*</label><br>
+
+  				<label for="job">Your order is</label>
+  				<select name="sweets">
+						<option selected="selected">Choose your sweets</option>
+						<optgroup label="Donuts">
+							<option>Chocolate One Donut</option>
+							<option>Mable Donut</option>
+							<option>Vanilla Long Donut</option>
+							<option>Glazed Raised Donut</option>
+							<option>Cruller Donut</option>
+							<option>Jelly Donut</option>
+						</optgroup>
+						<optgroup label="Icecream">
+							<option>Butter Pecan Icecream</option>
+							<option>Choco obsession Icecream</option>
+							<option>French Vanilla Icecream</option>
+							<option>Hokey Pokey Icecream</option>
+							<option>Tiger Tail Icecream</option>
+						</optgroup>
+					</select>
+					<select name="drinks">
+						<option selected="selected">Choose your drinks</option>
+						<optgroup label="Tea">
+							<option>Green Tea</option>
+							<option>Black Tea</option>
+							<option>Red Tea</option>
+							<option>White Tea</option>
+						</optgroup>
+						<optgroup label="Coffee">
+							<option>Capuccino</option>
+							<option>Late</option>
+							<option>Espresso</option>
+							<option>Flat White</option>
+						</optgroup>
+  				</select>
+
+
+
+  		</fieldset>
+  		<button type="submit">Finish Order</button>
+  	</form>
+  </section>
+
+
+	<footer class="main-footer">
+		<span>&copy;2017 Residents of Toronto.</span>
+	</footer>
+</body>
+</html>
