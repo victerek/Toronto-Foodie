@@ -1,1 +1,1 @@
-simple yet beautiful food wesbite
+Simple yet beautiful website for food lovers.
